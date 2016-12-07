@@ -1,0 +1,264 @@
+/*
+* Dyfazz - 2016 (Dynamic and fast styling)
+* Version 1.0
+* Developed by Hildor Jr.
+* https://br.linkedin.com/in/hildor-junior-2a7416111
+* https://github.com/fbrbr
+*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font-family: 'Roboto', sans-serif, monospace;
+}
+body{
+  width: 100%;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+/*NAVBAR*/
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(242, 98, 46);
+  margin-bottom: 10px;
+  position: absolute;
+}
+nav{
+  float: right;
+  margin-right: 5%;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  display: block;
+  padding: 14px 15px;
+  color: white;
+  font-weight: normal;
+}
+nav ul li a:hover{
+  border-bottom: 3px solid white;
+}
+.logo{
+  float: left;
+  margin-left: 5%;
+  color: white;
+}
+/*LANDING PAGE*/
+.landing-page{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://mdrepairs.com/wp-content/uploads/2015/09/Space-Time-Website-Background-Image-blur.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page-h1{
+  color: rgb(242, 98, 46);
+  font-size: 10em;
+  text-shadow: 3px 2px 2px black;
+}
+.center-well{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #d8d8d8;
+}
+/*CONTAINER*/
+.container{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+/*ICONS*/
+i{}
+/*WELL*/
+.well{
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+/*PARAGRAPHS*/
+p{
+  display: inline-flex;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.comment{
+  font-style: italic;
+  color: grey;
+}
+/*HEADINGS*/
+h1, h2, h3, h4, h5, h6{
+  margin: 5px 0px;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.75em;
+}
+h3{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.25em;
+}
+h5{
+  font-size: 1em;
+}
+h6{
+  font-size: 0.75em;
+}
+/*HORIZONTAL RULE*/
+hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 10px 0px;
+}
+/*CODETAG*/
+code{
+  margin: 5px 0px;
+  background-color: #e4e4e4;
+  padding: 10px;
+  display: block;
+  color: green;
+}
+.center{
+  text-align: center;
+}
+/*BUTTONS&BUTTON_INPUTS*/
+.btn{
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: black;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+  font-size: 0.8em;
+}
+.btn:hover{
+  border: 1px solid white;
+  color: white;
+}
+.btn:active{
+}
+.btn-large{
+  font-size: 1.25em;
+}
+.btn-medium{
+  font-size: 1em;
+}
+.btn-small{
+  font-size: 0.25em;
+}
+.btn-default{}
+.btn-default:hover{
+  background-color: black;
+}
+.btn-primary{
+  border-color: #4285F4;
+}
+.btn-primary:hover{
+  background-color: #4285F4;
+}
+.btn-warning{
+  border-color:	#FBBC05;
+}
+.btn-warning:hover{
+  background-color:	#FBBC05;
+}
+.btn-danger{
+  border-color:	#EA4335;
+}
+.btn-danger:hover{
+  background-color:	#EA4335;
+}
+.btn-success{
+  border-color: #34A853;
+}
+.btn-success:hover{
+  background-color: #34A853;
+}
+/*INPUTS*/
+input:focus{
+  outline: none;
+}
+input[type=text],
+input[type=password],
+input[type=textarea],
+input[type=email]{
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=textarea]:focus,
+input[type=email]:focus{
+  border: 1px solid black;
+}
+/*ALERTS*/
+.close-alert{
+  float: right;
+  margin-top: -10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.alert-link{
+  font-weight: bold;
+}
+.alert{
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 90%;
+  margin: 0 auto;
+}
+.alert-default{
+  border: 1px solid black;
+}
+.alert-warning{
+  background-color:	#FBBC05;
+  color: white;
+}
+.alert-danger{
+  background-color:	#EA4335;
+  color: white;
+}
+.alert-success{
+  background-color: #34A853;
+  color: white;
+}
+.alert-primary{
+  background-color: #4285F4;
+  color: white;
+}
