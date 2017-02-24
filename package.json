@@ -1,0 +1,24 @@
+{
+  "name": "dyfazz",
+  "version": "1.0.0",
+  "description": "framework of CSS for community",
+  "main": "dyfazz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbastos93/Dyfazz.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "responsive"
+  ],
+  "author": "Hildor, Renan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanbastos93/Dyfazz/issues"
+  },
+  "homepage": "https://github.com/renanbastos93/Dyfazz#readme"
+}
