@@ -262,3 +262,46 @@ input[type=email]:focus{
   background-color: #4285F4;
   color: white;
 }
+
+
+/* Button Dropdown */
+
+div[dropdown]{
+  position: relative;
+  display: inline-block;
+}
+div[dropdown='content']{
+  display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+div[dropdown='content'] a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+div[dropdown='content'] a:hover {background-color: #f1f1f1}
+div[dropdown]:hover div[dropdown='content']{display: block;}
+div[dropdown]:hover button[dropdown='primary']{background-color: #1e90ff;}
+div[dropdown]:hover button[dropdown='success']{background-color: #3cb371;}
+div[dropdown]:hover button[dropdown='warning']{background-color: #bfbf00;}
+div[dropdown]:hover button[dropdown='danger']{background-color: #861616;}
+
+button[dropdown]{
+  background-color: #ccc;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button[dropdown="danger"]{background-color: #EA4335;}
+button[dropdown="success"]{background-color: #34A853;}
+button[dropdown="warning"]{background-color: #FBBC05; color: black;}
+button[dropdown="primary"]{background-color: #4285F4;}
